@@ -6,6 +6,7 @@ import Product from './pages/Product'
 import Login from './pages/Login'
 import PlaceOrder from './pages/PlaceOrder'
 import Orders from './pages/Orders'
+import Verify from './pages/Verify'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Banner from './components/Banner'
@@ -13,7 +14,6 @@ import ProductSection from './pages/ProductSection.jsx'
 import CartDrawer from './components/CartDrawer.jsx'
 import  { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
-import Verify from './pages/Verify.jsx'
 
 export default function App() {
   return (
