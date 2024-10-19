@@ -17,16 +17,16 @@ const productSchema = new mongoose.Schema({
         type: Array,
         required: true
     },
-    category: {
+    collections: {
         type: String,
         required: true
     },
-    subCategory: {
+    subCollections: {
         type: String,
-        required: true
+        required: false
     },
-    sizes: {
-        type: Array,
+    licence: {
+        type: String,
         required: true
     },
     bestSeller: {
